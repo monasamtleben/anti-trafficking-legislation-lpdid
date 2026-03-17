@@ -11,8 +11,11 @@ difference-in-differences, LP-DiD, Palermo Protocol, human trafficking, 3P-Index
 Data sources — 3P-Index (Cho et al. 2014), World Bank Rule of Law, Polity scores
 
 Software — Stata version 19.5
+
 Packages: 
+
 ssc install reghdfe
+
 ssc install ftools
 
 Repository structure — 
