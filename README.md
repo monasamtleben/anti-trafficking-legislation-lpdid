@@ -19,7 +19,11 @@ ssc install reghdfe
 ssc install ftools
 
 Repository structure — 
+
 /code        — Stata do-files
+
 /data        — raw and cleaned datasets
+
 /output      — figures and tables
+
 /paper       — thesis PDF
