@@ -21,7 +21,7 @@ set more off
 macro drop _all
 capture log close
 
-use "C:\Users\MSAM01\Documents\stata19\dataset\ds_small_incl_richard_unp_adapt_not_nan.dta", clear
+use "C:\Users\dataset.dta", clear
 
 set scheme s2color
 set trace off
