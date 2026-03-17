@@ -2,11 +2,16 @@
     LP-DiD: Pre-Mean-Differenced (PMD) — No Interaction
     Four outcome variables: overall_3p, prevention, protection, prosecution
 
+	Method: A Local Projections Approach To Difference-In-Differences (Dube, Girardi, Jorda' and Taylor, 2023) 
+    Code based on: https://github.com/danielegirardi/lpdid/blob/main/STATA%20example%20files/LP_DiD_examplefile.do 
+	Author: Daniele Girardi (University of Massachusetts Amherst), dgirardi@umass.edu (2/24/2023)
+
     Outputs:
     - pmd_eventstudy_no_int.tex
         → combined event-study overview table t=-5 to t=5 (one column per outcome)
     - pmd_pooled_no_int.tex
         → combined pooled RWPMD table: treat / N / R² for all 4 outcomes
+
 */
 
 clear all
